@@ -6,6 +6,9 @@ time creating a CLI, and I had a lot of fun working on it.
 Run `yarn install` or `node install`
 Then run `node . test` to execute the test commands
 
+Note: The bug has to do with the caching and async calls for storage.
+To reset storage manually, delete the `.cache` folder.
+
 Single commands can be run with 
   + `node . list`
   + `node . create value`
