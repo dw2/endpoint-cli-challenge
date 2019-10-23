@@ -1,0 +1,26 @@
+{
+  "name": "endpoint-cli-challenge",
+  "version": "1.0.0",
+  "description": "Code challenge: create a CLI to sort a tree",
+  "main": "bin/index.js",
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dw2/endpoint-cli-challenge.git"
+  },
+  "author": "Doug Waltman <doug@dougwaltman.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dw2/endpoint-cli-challenge/issues"
+  },
+  "homepage": "https://github.com/dw2/endpoint-cli-challenge#readme",
+  "dependencies": {
+    "node-persist": "^3.0.5",
+    "yargs": "^14.2.0"
+  }
+}

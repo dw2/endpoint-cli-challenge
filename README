@@ -1,0 +1,14 @@
+Thank you for the opportunity to complete your code challenge.
+There was one last bug i was working on when I ran out of time,
+however I am fairly happy with the results. This was my first
+time creating a CLI, and I had a lot of fun working on it.
+
+Run `yarn install` or `node install`
+Then run `node . test` to execute the test commands
+
+Single commands can be run with 
+  + `node . list`
+  + `node . create value`
+  + `node . delete value`
+  + `node . move value newValue`
+  + `node . clear`
